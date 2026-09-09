@@ -1,0 +1,1600 @@
+{
+    "versionNumber": 1,
+    "mainWeight": 1.0,
+    "eyesWeight": 1.0,
+    "eyelidsWeight": 1.0,
+    "headControl": 1,
+    "headAnimationType": 0,
+    "updateType": 0,
+    "headBonePath": "",
+    "neckBonePath": "",
+    "spineBonePath": "",
+    "headChangeToNewTargetSpeed": 1.0,
+    "headTrackTargetSpeed": 1.0,
+    "headWeight": 0.75,
+    "bodyWeight": 0.10000000149011612,
+    "neckHorizWeight": 0.5,
+    "neckVertWeight": 0.5,
+    "headPitchAngle": 0.0,
+    "headRollAngle": 0.0,
+    "headYawAngle": 0.0,
+    "neckPitchAngle": 0.0,
+    "neckRollAngle": 0.0,
+    "neckYawAngle": 0.0,
+    "useUpInsteadOfSpineAngle": 30.0,
+    "resetHeadAtFrameStart": false,
+    "useMicroSaccades": true,
+    "useMacroSaccades": true,
+    "useHeadJitter": true,
+    "headJitterFrequency": 0.20000000298023225,
+    "headJitterAmplitude": 1.0,
+    "kDrawSightlinesInEditor": false,
+    "controlData": {
+        "eyeWidenOrSquint": 0.0,
+        "eyeControl": 1,
+        "eyelidBoneMode": 0,
+        "leftEyePath": "CC_Base_FacialBone/CC_Base_L_Eye",
+        "rightEyePath": "CC_Base_FacialBone/CC_Base_R_Eye",
+        "maxEyeUpBoneAngle": 20.0,
+        "maxEyeDownBoneAngle": 20.0,
+        "maxEyeUpEyeballAngle": 20.0,
+        "maxEyeDownEyeballAngle": 20.0,
+        "isEyeBallDefaultSet": false,
+        "isEyeBoneDefaultSet": true,
+        "isEyeBallLookUpSet": false,
+        "isEyeBoneLookUpSet": true,
+        "isEyeBallLookDownSet": false,
+        "isEyeBoneLookDownSet": true,
+        "isEyeBallLookLeftSet": false,
+        "isEyeBoneLookLeftSet": true,
+        "isEyeBallLookRightSet": false,
+        "isEyeBoneLookRightSet": true,
+        "leftBoneEyeRotationLimiter": {
+            "transformPath": "CC_Base_FacialBone/CC_Base_L_Eye",
+            "defaultQ": {
+                "x": -0.7063119411468506,
+                "y": -0.02328905276954174,
+                "z": 0.7067221999168396,
+                "w": 0.03353973850607872
+            },
+            "lookUpQ": {
+                "x": -0.6933212876319885,
+                "y": -0.19431786239147187,
+                "z": 0.6798617243766785,
+                "w": -0.1390472948551178
+            },
+            "lookDownQ": {
+                "x": -0.6520465016365051,
+                "y": 0.22026193141937257,
+                "z": 0.671971321105957,
+                "w": 0.2734496593475342
+            },
+            "lookLeftQ": {
+                "x": -0.6842697262763977,
+                "y": -0.17660407721996308,
+                "z": 0.6824359893798828,
+                "w": 0.18672728538513184
+            },
+            "lookRightQ": {
+                "x": -0.6986585259437561,
+                "y": 0.10628066211938858,
+                "z": 0.7009359002113342,
+                "w": -0.09627893567085266
+            },
+            "isLookUpSet": true,
+            "isLookDownSet": true,
+            "isLookLeftSet": true,
+            "isLookRightSet": true
+        },
+        "rightBoneEyeRotationLimiter": {
+            "transformPath": "CC_Base_FacialBone/CC_Base_R_Eye",
+            "defaultQ": {
+                "x": -0.7070285081863403,
+                "y": 0.010488135740160942,
+                "z": 0.7070293426513672,
+                "w": -0.010493879206478596
+            },
+            "lookUpQ": {
+                "x": -0.6832686066627502,
+                "y": -0.16158299148082734,
+                "z": 0.6884168982505798,
+                "w": -0.18198123574256898
+            },
+            "lookDownQ": {
+                "x": -0.6730309128761292,
+                "y": 0.2519083619117737,
+                "z": 0.655460774898529,
+                "w": 0.23225577175617219
+            },
+            "lookLeftQ": {
+                "x": -0.6970214247703552,
+                "y": -0.11899791657924652,
+                "z": 0.6970235705375671,
+                "w": 0.11899107694625855
+            },
+            "lookRightQ": {
+                "x": -0.6877572536468506,
+                "y": 0.1642964631319046,
+                "z": 0.6877580881118774,
+                "w": -0.1642724722623825
+            },
+            "isLookUpSet": true,
+            "isLookDownSet": true,
+            "isLookLeftSet": true,
+            "isLookRightSet": true
+        },
+        "leftEyeballEyeRotationLimiter": {
+            "transformPath": "",
+            "defaultQ": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "lookUpQ": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "lookDownQ": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "lookLeftQ": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "lookRightQ": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "isLookUpSet": false,
+            "isLookDownSet": false,
+            "isLookLeftSet": false,
+            "isLookRightSet": false
+        },
+        "rightEyeballEyeRotationLimiter": {
+            "transformPath": "",
+            "defaultQ": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "lookUpQ": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "lookDownQ": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "lookLeftQ": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "lookRightQ": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "isLookUpSet": false,
+            "isLookDownSet": false,
+            "isLookLeftSet": false,
+            "isLookRightSet": false
+        },
+        "eyelidControl": 2,
+        "upperLeftEyelidBonePaths": [],
+        "upperRightEyelidBonePaths": [],
+        "lowerLeftEyelidBonePaths": [],
+        "lowerRightEyelidBonePaths": [],
+        "isEyelidBonesDefaultSet": false,
+        "isEyelidBonesClosedSet": false,
+        "isEyelidBonesLookUpSet": false,
+        "isEyelidBonesLookDownSet": false,
+        "upperLeftLimiters": [],
+        "upperRightLimiters": [],
+        "lowerLeftLimiters": [],
+        "lowerRightLimiters": [],
+        "blendshapesForBlinking": [
+            {
+                "skinnedMeshRendererPath": "CC_Base_Body",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 16,
+                "name": "Eye_Blink_L"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_Body",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 17,
+                "name": "Eye_Blink_R"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_Eye",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 0,
+                "name": "Eye_Blink_L"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_Eye",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 1,
+                "name": "Eye_Blink_R"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_EyeOcclusion",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 24,
+                "name": "Eye_Blink_L"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_EyeOcclusion",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 25,
+                "name": "Eye_Blink_R"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_TearLine",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 24,
+                "name": "Eye_Blink_L"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_TearLine",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 25,
+                "name": "Eye_Blink_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Classic_Slick_Back",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 24,
+                "name": "Eye_Blink_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Classic_Slick_Back",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 25,
+                "name": "Eye_Blink_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Eyelash_Low",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 24,
+                "name": "Eye_Blink_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Eyelash_Low",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 25,
+                "name": "Eye_Blink_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Eyelash_Up",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 24,
+                "name": "Eye_Blink_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Eyelash_Up",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 25,
+                "name": "Eye_Blink_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Kevin_Brow",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 24,
+                "name": "Eye_Blink_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Kevin_Brow",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 25,
+                "name": "Eye_Blink_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Stubble",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 24,
+                "name": "Eye_Blink_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Stubble",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 25,
+                "name": "Eye_Blink_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Classic_Slick_Back_Extracted0",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 24,
+                "name": "Eye_Blink_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Classic_Slick_Back_Extracted0",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 25,
+                "name": "Eye_Blink_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Kevin_Brow_Extracted0",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 24,
+                "name": "Eye_Blink_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Kevin_Brow_Extracted0",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 25,
+                "name": "Eye_Blink_R"
+            }
+        ],
+        "blendshapesForLookingUp": [
+            {
+                "skinnedMeshRendererPath": "CC_Base_Body",
+                "defaultWeight": 0.0,
+                "positionWeight": 80.0,
+                "index": 28,
+                "name": "Eye_LowerLid_Up_L"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_Body",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 29,
+                "name": "Eye_LowerLid_Up_R"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_Body",
+                "defaultWeight": 0.0,
+                "positionWeight": 70.0,
+                "index": 32,
+                "name": "Eye_UpperLid_Up_L"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_Body",
+                "defaultWeight": 0.0,
+                "positionWeight": 70.0,
+                "index": 33,
+                "name": "Eye_UpperLid_Up_R"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_Body",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 36,
+                "name": "Eye_Look_Up_L"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_Body",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 37,
+                "name": "Eye_Look_Up_R"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_EyeOcclusion",
+                "defaultWeight": 0.0,
+                "positionWeight": 80.0,
+                "index": 36,
+                "name": "Eye_LowerLid_Up_L"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_EyeOcclusion",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 37,
+                "name": "Eye_LowerLid_Up_R"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_EyeOcclusion",
+                "defaultWeight": 0.0,
+                "positionWeight": 70.0,
+                "index": 40,
+                "name": "Eye_UpperLid_Up_L"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_EyeOcclusion",
+                "defaultWeight": 0.0,
+                "positionWeight": 70.0,
+                "index": 41,
+                "name": "Eye_UpperLid_Up_R"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_EyeOcclusion",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 42,
+                "name": "Eye_Look_Up_L"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_EyeOcclusion",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 43,
+                "name": "Eye_Look_Up_R"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_TearLine",
+                "defaultWeight": 0.0,
+                "positionWeight": 80.0,
+                "index": 36,
+                "name": "Eye_LowerLid_Up_L"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_TearLine",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 37,
+                "name": "Eye_LowerLid_Up_R"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_TearLine",
+                "defaultWeight": 0.0,
+                "positionWeight": 70.0,
+                "index": 40,
+                "name": "Eye_UpperLid_Up_L"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_TearLine",
+                "defaultWeight": 0.0,
+                "positionWeight": 70.0,
+                "index": 41,
+                "name": "Eye_UpperLid_Up_R"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_TearLine",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 42,
+                "name": "Eye_Look_Up_L"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_TearLine",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 43,
+                "name": "Eye_Look_Up_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Classic_Slick_Back",
+                "defaultWeight": 0.0,
+                "positionWeight": 80.0,
+                "index": 36,
+                "name": "Eye_LowerLid_Up_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Classic_Slick_Back",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 37,
+                "name": "Eye_LowerLid_Up_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Classic_Slick_Back",
+                "defaultWeight": 0.0,
+                "positionWeight": 70.0,
+                "index": 40,
+                "name": "Eye_UpperLid_Up_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Classic_Slick_Back",
+                "defaultWeight": 0.0,
+                "positionWeight": 70.0,
+                "index": 41,
+                "name": "Eye_UpperLid_Up_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Classic_Slick_Back",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 44,
+                "name": "Eye_Look_Up_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Classic_Slick_Back",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 45,
+                "name": "Eye_Look_Up_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Eyelash_Low",
+                "defaultWeight": 0.0,
+                "positionWeight": 80.0,
+                "index": 36,
+                "name": "Eye_LowerLid_Up_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Eyelash_Low",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 37,
+                "name": "Eye_LowerLid_Up_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Eyelash_Low",
+                "defaultWeight": 0.0,
+                "positionWeight": 70.0,
+                "index": 40,
+                "name": "Eye_UpperLid_Up_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Eyelash_Low",
+                "defaultWeight": 0.0,
+                "positionWeight": 70.0,
+                "index": 41,
+                "name": "Eye_UpperLid_Up_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Eyelash_Low",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 44,
+                "name": "Eye_Look_Up_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Eyelash_Low",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 45,
+                "name": "Eye_Look_Up_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Eyelash_Up",
+                "defaultWeight": 0.0,
+                "positionWeight": 80.0,
+                "index": 36,
+                "name": "Eye_LowerLid_Up_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Eyelash_Up",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 37,
+                "name": "Eye_LowerLid_Up_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Eyelash_Up",
+                "defaultWeight": 0.0,
+                "positionWeight": 70.0,
+                "index": 40,
+                "name": "Eye_UpperLid_Up_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Eyelash_Up",
+                "defaultWeight": 0.0,
+                "positionWeight": 70.0,
+                "index": 41,
+                "name": "Eye_UpperLid_Up_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Eyelash_Up",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 44,
+                "name": "Eye_Look_Up_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Eyelash_Up",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 45,
+                "name": "Eye_Look_Up_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Kevin_Brow",
+                "defaultWeight": 0.0,
+                "positionWeight": 80.0,
+                "index": 36,
+                "name": "Eye_LowerLid_Up_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Kevin_Brow",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 37,
+                "name": "Eye_LowerLid_Up_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Kevin_Brow",
+                "defaultWeight": 0.0,
+                "positionWeight": 70.0,
+                "index": 40,
+                "name": "Eye_UpperLid_Up_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Kevin_Brow",
+                "defaultWeight": 0.0,
+                "positionWeight": 70.0,
+                "index": 41,
+                "name": "Eye_UpperLid_Up_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Kevin_Brow",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 44,
+                "name": "Eye_Look_Up_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Kevin_Brow",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 45,
+                "name": "Eye_Look_Up_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Stubble",
+                "defaultWeight": 0.0,
+                "positionWeight": 80.0,
+                "index": 36,
+                "name": "Eye_LowerLid_Up_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Stubble",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 37,
+                "name": "Eye_LowerLid_Up_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Stubble",
+                "defaultWeight": 0.0,
+                "positionWeight": 70.0,
+                "index": 40,
+                "name": "Eye_UpperLid_Up_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Stubble",
+                "defaultWeight": 0.0,
+                "positionWeight": 70.0,
+                "index": 41,
+                "name": "Eye_UpperLid_Up_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Stubble",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 44,
+                "name": "Eye_Look_Up_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Stubble",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 45,
+                "name": "Eye_Look_Up_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Classic_Slick_Back_Extracted0",
+                "defaultWeight": 0.0,
+                "positionWeight": 80.0,
+                "index": 36,
+                "name": "Eye_LowerLid_Up_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Classic_Slick_Back_Extracted0",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 37,
+                "name": "Eye_LowerLid_Up_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Classic_Slick_Back_Extracted0",
+                "defaultWeight": 0.0,
+                "positionWeight": 70.0,
+                "index": 40,
+                "name": "Eye_UpperLid_Up_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Classic_Slick_Back_Extracted0",
+                "defaultWeight": 0.0,
+                "positionWeight": 70.0,
+                "index": 41,
+                "name": "Eye_UpperLid_Up_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Classic_Slick_Back_Extracted0",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 44,
+                "name": "Eye_Look_Up_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Classic_Slick_Back_Extracted0",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 45,
+                "name": "Eye_Look_Up_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Kevin_Brow_Extracted0",
+                "defaultWeight": 0.0,
+                "positionWeight": 80.0,
+                "index": 36,
+                "name": "Eye_LowerLid_Up_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Kevin_Brow_Extracted0",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 37,
+                "name": "Eye_LowerLid_Up_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Kevin_Brow_Extracted0",
+                "defaultWeight": 0.0,
+                "positionWeight": 70.0,
+                "index": 40,
+                "name": "Eye_UpperLid_Up_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Kevin_Brow_Extracted0",
+                "defaultWeight": 0.0,
+                "positionWeight": 70.0,
+                "index": 41,
+                "name": "Eye_UpperLid_Up_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Kevin_Brow_Extracted0",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 44,
+                "name": "Eye_Look_Up_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Kevin_Brow_Extracted0",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 45,
+                "name": "Eye_Look_Up_R"
+            }
+        ],
+        "blendshapesForLookingDown": [
+            {
+                "skinnedMeshRendererPath": "CC_Base_Body",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 26,
+                "name": "Eye_LowerLid_Down_L"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_Body",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 27,
+                "name": "Eye_LowerLid_Down_R"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_Body",
+                "defaultWeight": 0.0,
+                "positionWeight": 50.0,
+                "index": 32,
+                "name": "Eye_UpperLid_Up_L"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_Body",
+                "defaultWeight": 0.0,
+                "positionWeight": 50.0,
+                "index": 33,
+                "name": "Eye_UpperLid_Up_R"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_Body",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 38,
+                "name": "Eye_Look_Down_L"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_Body",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 39,
+                "name": "Eye_Look_Down_R"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_EyeOcclusion",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 34,
+                "name": "Eye_LowerLid_Down_L"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_EyeOcclusion",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 35,
+                "name": "Eye_LowerLid_Down_R"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_EyeOcclusion",
+                "defaultWeight": 0.0,
+                "positionWeight": 50.0,
+                "index": 40,
+                "name": "Eye_UpperLid_Up_L"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_EyeOcclusion",
+                "defaultWeight": 0.0,
+                "positionWeight": 50.0,
+                "index": 41,
+                "name": "Eye_UpperLid_Up_R"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_EyeOcclusion",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 44,
+                "name": "Eye_Look_Down_L"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_EyeOcclusion",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 45,
+                "name": "Eye_Look_Down_R"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_TearLine",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 34,
+                "name": "Eye_LowerLid_Down_L"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_TearLine",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 35,
+                "name": "Eye_LowerLid_Down_R"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_TearLine",
+                "defaultWeight": 0.0,
+                "positionWeight": 50.0,
+                "index": 40,
+                "name": "Eye_UpperLid_Up_L"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_TearLine",
+                "defaultWeight": 0.0,
+                "positionWeight": 50.0,
+                "index": 41,
+                "name": "Eye_UpperLid_Up_R"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_TearLine",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 44,
+                "name": "Eye_Look_Down_L"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_TearLine",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 45,
+                "name": "Eye_Look_Down_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Classic_Slick_Back",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 34,
+                "name": "Eye_LowerLid_Down_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Classic_Slick_Back",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 35,
+                "name": "Eye_LowerLid_Down_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Classic_Slick_Back",
+                "defaultWeight": 0.0,
+                "positionWeight": 50.0,
+                "index": 40,
+                "name": "Eye_UpperLid_Up_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Classic_Slick_Back",
+                "defaultWeight": 0.0,
+                "positionWeight": 50.0,
+                "index": 41,
+                "name": "Eye_UpperLid_Up_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Classic_Slick_Back",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 46,
+                "name": "Eye_Look_Down_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Classic_Slick_Back",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 47,
+                "name": "Eye_Look_Down_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Eyelash_Low",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 34,
+                "name": "Eye_LowerLid_Down_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Eyelash_Low",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 35,
+                "name": "Eye_LowerLid_Down_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Eyelash_Low",
+                "defaultWeight": 0.0,
+                "positionWeight": 50.0,
+                "index": 40,
+                "name": "Eye_UpperLid_Up_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Eyelash_Low",
+                "defaultWeight": 0.0,
+                "positionWeight": 50.0,
+                "index": 41,
+                "name": "Eye_UpperLid_Up_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Eyelash_Low",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 46,
+                "name": "Eye_Look_Down_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Eyelash_Low",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 47,
+                "name": "Eye_Look_Down_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Eyelash_Up",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 34,
+                "name": "Eye_LowerLid_Down_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Eyelash_Up",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 35,
+                "name": "Eye_LowerLid_Down_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Eyelash_Up",
+                "defaultWeight": 0.0,
+                "positionWeight": 50.0,
+                "index": 40,
+                "name": "Eye_UpperLid_Up_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Eyelash_Up",
+                "defaultWeight": 0.0,
+                "positionWeight": 50.0,
+                "index": 41,
+                "name": "Eye_UpperLid_Up_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Eyelash_Up",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 46,
+                "name": "Eye_Look_Down_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Eyelash_Up",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 47,
+                "name": "Eye_Look_Down_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Kevin_Brow",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 34,
+                "name": "Eye_LowerLid_Down_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Kevin_Brow",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 35,
+                "name": "Eye_LowerLid_Down_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Kevin_Brow",
+                "defaultWeight": 0.0,
+                "positionWeight": 50.0,
+                "index": 40,
+                "name": "Eye_UpperLid_Up_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Kevin_Brow",
+                "defaultWeight": 0.0,
+                "positionWeight": 50.0,
+                "index": 41,
+                "name": "Eye_UpperLid_Up_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Kevin_Brow",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 46,
+                "name": "Eye_Look_Down_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Kevin_Brow",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 47,
+                "name": "Eye_Look_Down_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Stubble",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 34,
+                "name": "Eye_LowerLid_Down_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Stubble",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 35,
+                "name": "Eye_LowerLid_Down_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Stubble",
+                "defaultWeight": 0.0,
+                "positionWeight": 50.0,
+                "index": 40,
+                "name": "Eye_UpperLid_Up_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Stubble",
+                "defaultWeight": 0.0,
+                "positionWeight": 50.0,
+                "index": 41,
+                "name": "Eye_UpperLid_Up_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Stubble",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 46,
+                "name": "Eye_Look_Down_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Stubble",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 47,
+                "name": "Eye_Look_Down_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Classic_Slick_Back_Extracted0",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 34,
+                "name": "Eye_LowerLid_Down_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Classic_Slick_Back_Extracted0",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 35,
+                "name": "Eye_LowerLid_Down_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Classic_Slick_Back_Extracted0",
+                "defaultWeight": 0.0,
+                "positionWeight": 50.0,
+                "index": 40,
+                "name": "Eye_UpperLid_Up_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Classic_Slick_Back_Extracted0",
+                "defaultWeight": 0.0,
+                "positionWeight": 50.0,
+                "index": 41,
+                "name": "Eye_UpperLid_Up_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Classic_Slick_Back_Extracted0",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 46,
+                "name": "Eye_Look_Down_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Classic_Slick_Back_Extracted0",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 47,
+                "name": "Eye_Look_Down_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Kevin_Brow_Extracted0",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 34,
+                "name": "Eye_LowerLid_Down_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Kevin_Brow_Extracted0",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 35,
+                "name": "Eye_LowerLid_Down_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Kevin_Brow_Extracted0",
+                "defaultWeight": 0.0,
+                "positionWeight": 50.0,
+                "index": 40,
+                "name": "Eye_UpperLid_Up_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Kevin_Brow_Extracted0",
+                "defaultWeight": 0.0,
+                "positionWeight": 50.0,
+                "index": 41,
+                "name": "Eye_UpperLid_Up_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Kevin_Brow_Extracted0",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 46,
+                "name": "Eye_Look_Down_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Kevin_Brow_Extracted0",
+                "defaultWeight": 0.0,
+                "positionWeight": 100.0,
+                "index": 47,
+                "name": "Eye_Look_Down_R"
+            }
+        ],
+        "blendshapesForLookingLeft": [
+            {
+                "skinnedMeshRendererPath": "CC_Base_Body",
+                "defaultWeight": 0.0,
+                "positionWeight": 55.0,
+                "index": 40,
+                "name": "Eye_Look_Left_L"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_Body",
+                "defaultWeight": 0.0,
+                "positionWeight": 55.0,
+                "index": 41,
+                "name": "Eye_Look_Left_R"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_EyeOcclusion",
+                "defaultWeight": 0.0,
+                "positionWeight": 55.0,
+                "index": 46,
+                "name": "Eye_Look_Left_L"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_EyeOcclusion",
+                "defaultWeight": 0.0,
+                "positionWeight": 55.0,
+                "index": 47,
+                "name": "Eye_Look_Left_R"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_TearLine",
+                "defaultWeight": 0.0,
+                "positionWeight": 55.0,
+                "index": 46,
+                "name": "Eye_Look_Left_L"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_TearLine",
+                "defaultWeight": 0.0,
+                "positionWeight": 55.0,
+                "index": 47,
+                "name": "Eye_Look_Left_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Classic_Slick_Back",
+                "defaultWeight": 0.0,
+                "positionWeight": 55.0,
+                "index": 48,
+                "name": "Eye_Look_Left_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Classic_Slick_Back",
+                "defaultWeight": 0.0,
+                "positionWeight": 55.0,
+                "index": 49,
+                "name": "Eye_Look_Left_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Eyelash_Low",
+                "defaultWeight": 0.0,
+                "positionWeight": 55.0,
+                "index": 48,
+                "name": "Eye_Look_Left_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Eyelash_Low",
+                "defaultWeight": 0.0,
+                "positionWeight": 55.0,
+                "index": 49,
+                "name": "Eye_Look_Left_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Eyelash_Up",
+                "defaultWeight": 0.0,
+                "positionWeight": 55.0,
+                "index": 48,
+                "name": "Eye_Look_Left_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Eyelash_Up",
+                "defaultWeight": 0.0,
+                "positionWeight": 55.0,
+                "index": 49,
+                "name": "Eye_Look_Left_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Kevin_Brow",
+                "defaultWeight": 0.0,
+                "positionWeight": 55.0,
+                "index": 48,
+                "name": "Eye_Look_Left_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Kevin_Brow",
+                "defaultWeight": 0.0,
+                "positionWeight": 55.0,
+                "index": 49,
+                "name": "Eye_Look_Left_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Stubble",
+                "defaultWeight": 0.0,
+                "positionWeight": 55.0,
+                "index": 48,
+                "name": "Eye_Look_Left_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Stubble",
+                "defaultWeight": 0.0,
+                "positionWeight": 55.0,
+                "index": 49,
+                "name": "Eye_Look_Left_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Classic_Slick_Back_Extracted0",
+                "defaultWeight": 0.0,
+                "positionWeight": 55.0,
+                "index": 48,
+                "name": "Eye_Look_Left_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Classic_Slick_Back_Extracted0",
+                "defaultWeight": 0.0,
+                "positionWeight": 55.0,
+                "index": 49,
+                "name": "Eye_Look_Left_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Kevin_Brow_Extracted0",
+                "defaultWeight": 0.0,
+                "positionWeight": 55.0,
+                "index": 48,
+                "name": "Eye_Look_Left_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Kevin_Brow_Extracted0",
+                "defaultWeight": 0.0,
+                "positionWeight": 55.0,
+                "index": 49,
+                "name": "Eye_Look_Left_R"
+            }
+        ],
+        "blendshapesForLookingRight": [
+            {
+                "skinnedMeshRendererPath": "CC_Base_Body",
+                "defaultWeight": 0.0,
+                "positionWeight": 55.0,
+                "index": 42,
+                "name": "Eye_Look_Right_L"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_Body",
+                "defaultWeight": 0.0,
+                "positionWeight": 55.0,
+                "index": 43,
+                "name": "Eye_Look_Right_R"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_EyeOcclusion",
+                "defaultWeight": 0.0,
+                "positionWeight": 55.0,
+                "index": 48,
+                "name": "Eye_Look_Right_L"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_EyeOcclusion",
+                "defaultWeight": 0.0,
+                "positionWeight": 55.0,
+                "index": 49,
+                "name": "Eye_Look_Right_R"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_TearLine",
+                "defaultWeight": 0.0,
+                "positionWeight": 55.0,
+                "index": 48,
+                "name": "Eye_Look_Right_L"
+            },
+            {
+                "skinnedMeshRendererPath": "CC_Base_TearLine",
+                "defaultWeight": 0.0,
+                "positionWeight": 55.0,
+                "index": 49,
+                "name": "Eye_Look_Right_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Classic_Slick_Back",
+                "defaultWeight": 0.0,
+                "positionWeight": 55.0,
+                "index": 50,
+                "name": "Eye_Look_Right_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Classic_Slick_Back",
+                "defaultWeight": 0.0,
+                "positionWeight": 55.0,
+                "index": 51,
+                "name": "Eye_Look_Right_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Eyelash_Low",
+                "defaultWeight": 0.0,
+                "positionWeight": 55.0,
+                "index": 50,
+                "name": "Eye_Look_Right_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Eyelash_Low",
+                "defaultWeight": 0.0,
+                "positionWeight": 55.0,
+                "index": 51,
+                "name": "Eye_Look_Right_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Eyelash_Up",
+                "defaultWeight": 0.0,
+                "positionWeight": 55.0,
+                "index": 50,
+                "name": "Eye_Look_Right_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Eyelash_Up",
+                "defaultWeight": 0.0,
+                "positionWeight": 55.0,
+                "index": 51,
+                "name": "Eye_Look_Right_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Kevin_Brow",
+                "defaultWeight": 0.0,
+                "positionWeight": 55.0,
+                "index": 50,
+                "name": "Eye_Look_Right_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Kevin_Brow",
+                "defaultWeight": 0.0,
+                "positionWeight": 55.0,
+                "index": 51,
+                "name": "Eye_Look_Right_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Stubble",
+                "defaultWeight": 0.0,
+                "positionWeight": 55.0,
+                "index": 50,
+                "name": "Eye_Look_Right_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Stubble",
+                "defaultWeight": 0.0,
+                "positionWeight": 55.0,
+                "index": 51,
+                "name": "Eye_Look_Right_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Classic_Slick_Back_Extracted0",
+                "defaultWeight": 0.0,
+                "positionWeight": 55.0,
+                "index": 50,
+                "name": "Eye_Look_Right_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Classic_Slick_Back_Extracted0",
+                "defaultWeight": 0.0,
+                "positionWeight": 55.0,
+                "index": 51,
+                "name": "Eye_Look_Right_R"
+            },
+            {
+                "skinnedMeshRendererPath": "Kevin_Brow_Extracted0",
+                "defaultWeight": 0.0,
+                "positionWeight": 55.0,
+                "index": 50,
+                "name": "Eye_Look_Right_L"
+            },
+            {
+                "skinnedMeshRendererPath": "Kevin_Brow_Extracted0",
+                "defaultWeight": 0.0,
+                "positionWeight": 55.0,
+                "index": 51,
+                "name": "Eye_Look_Right_R"
+            }
+        ],
+        "isEyelidBlendshapeDefaultSet": true,
+        "isEyelidBlendshapeClosedSet": true,
+        "isEyelidBlendshapeLookUpSet": true,
+        "isEyelidBlendshapeLookDownSet": true,
+        "isEyelidBlendshapeLookLeftSet": true,
+        "isEyelidBlendshapeLookRightSet": true,
+        "arePathsRelativeToHead": true
+    },
+    "kMinNextBlinkTime": 3.0,
+    "kMaxNextBlinkTime": 15.0,
+    "blinkSpeed": 1.0,
+    "eyelidsFollowEyesVertically": true,
+    "autoBlinking": true,
+    "idleTargetHorizAngle": 10.0,
+    "crossEyeCorrection": 1.0,
+    "saccadeSpeed": 0.5,
+    "macroSaccadesPerMinute": 10.0,
+    "microSaccadesPerMinuteLookingIdle": 45.0,
+    "microSaccadesPerMinuteLookingAtPOI": 80.0,
+    "maxHeadPitchUpAngle": 65.0,
+    "maxHeadPitchDownAngle": 65.0,
+    "maxHeadYawAngle": 65.0,
+    "areRotationOffsetsSet": true,
+    "eyeRoot_From_leftEyeAnchor_Q": {
+        "x": -0.7014284729957581,
+        "y": -0.0284697525203228,
+        "z": -0.029577631503343583,
+        "w": 0.7115568518638611
+    },
+    "eyeRoot_From_rightEyeAnchor_Q": {
+        "x": -0.7070590853691101,
+        "y": 0.010652043856680394,
+        "z": 0.00912152323871851,
+        "w": 0.7070154547691345
+    },
+    "originalLeftEyeLocalQ": {
+        "x": -0.7063119411468506,
+        "y": -0.02328905276954174,
+        "z": 0.7067221999168396,
+        "w": 0.03353973850607872
+    },
+    "originalRightEyeLocalQ": {
+        "x": -0.7070285081863403,
+        "y": 0.010488135740160942,
+        "z": 0.7070293426513672,
+        "w": -0.010493879206478596
+    },
+    "eyesRootLocalQ": {
+        "x": -0.49986428022384646,
+        "y": 0.5009893774986267,
+        "z": 0.5000918507575989,
+        "w": 0.49905258417129519
+    },
+    "character_From_Head_Q": {
+        "x": -0.000042945146560668945,
+        "y": -0.0008546723984181881,
+        "z": -0.0010823952034115792,
+        "w": 0.9999991655349731
+    },
+    "character_From_Neck_Q": {
+        "x": 0.0613081157207489,
+        "y": 0.004463858902454376,
+        "z": 0.0031947758980095388,
+        "w": 0.9981039762496948
+    },
+    "headBase_From_Head_Q": {
+        "x": -0.000042945146560668945,
+        "y": -0.0008546723984181881,
+        "z": -0.0010823952034115792,
+        "w": 0.9999991655349731
+    },
+    "spineBaseLocalQ": {
+        "x": 0.03525170683860779,
+        "y": 0.0000025187555365846494,
+        "z": 0.000029555118089774624,
+        "w": 0.9993784427642822
+    },
+    "headBaseLocalQ": {
+        "x": 0.03525170683860779,
+        "y": 0.0000025187555365846494,
+        "z": 0.000029555118089774624,
+        "w": 0.9993784427642822
+    },
+    "spineBaseLocalPos": {
+        "x": -0.00025046878727152944,
+        "y": 0.0007041294011287391,
+        "z": -0.009962689131498337
+    },
+    "headBaseLocalPos": {
+        "x": -0.0002726248058024794,
+        "y": 0.3759595453739166,
+        "z": 0.01654362492263317
+    },
+    "forwardInNeckSpace": {
+        "x": -0.008519059978425503,
+        "y": 0.12241227179765701,
+        "z": 0.992442786693573
+    },
+    "forwardInHeadSpace": {
+        "x": 0.001709436415694654,
+        "y": -0.00008404003165196627,
+        "z": 0.9999985098838806
+    }
+}
